@@ -1,0 +1,16 @@
+language: c++
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-5
+
+install:
+  - sudo ci/install_lcov.sh
+  - sudo ci/fix_symlinks.sh
+  - sudo ci/install_biicode.sh
+  - bii setup:cpp
+
+script: ci/script.sh
