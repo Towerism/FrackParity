@@ -1,4 +1,4 @@
-# FrackParity
+# FrackParity [![Build Status](https://travis-ci.org/Towerism/FrackParity.svg?branch=develop)](https://travis-ci.org/Towerism/FrackParity) [![Coverage Status](https://coveralls.io/repos/Towerism/FrackParity/badge.svg?branch=develop&service=github)](https://coveralls.io/github/Towerism/FrackParity?branch=develop)
 A parity checking library for C++
 
 # Requirements
