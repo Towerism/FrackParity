@@ -17,7 +17,7 @@ configure-debug: find
 	bii cpp:configure -DCMAKE_BUILD_TYPE=DEBUG
 
 configure-coverage: find
-	bii cpp:configure -DCMAKE_BUILD_TYPE=DEBUG -DFRACKDB_COVERAGE=ON
+	bii cpp:configure -DCMAKE_BUILD_TYPE=DEBUG -DFRACKPARITY_COVERAGE=ON
 
 build: configure-release
 	bii build
